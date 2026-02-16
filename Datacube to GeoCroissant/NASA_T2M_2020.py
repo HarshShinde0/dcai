@@ -26,7 +26,7 @@ def create_nasa_t2m_2020_croissant():
             "column": "cr:column",
             "conformsTo": "dct:conformsTo",
             "cr": "http://mlcommons.org/croissant/",
-            "geocr": "http://mlcommons.org/croissant/geocr/",
+            "geocr": "http://mlcommons.org/croissant/geo/",
             "rai": "http://mlcommons.org/croissant/RAI/",
             "dct": "http://purl.org/dc/terms/",
             "sc": "https://schema.org/",

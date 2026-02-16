@@ -14,7 +14,7 @@ def geocroissant_to_geodcat_jsonld(geocroissant_json, output_file="geodcat.jsonl
     SPDX = Namespace("http://spdx.org/rdf/terms#")
     ADMS = Namespace("http://www.w3.org/ns/adms#")
     PROV = Namespace("http://www.w3.org/ns/prov#")
-    GEOCR = Namespace("http://mlcommons.org/croissant/geocr/")
+    GEOCR = Namespace("http://mlcommons.org/croissant/geo/")
 
     g.bind("dct", DCTERMS)
     g.bind("dcat", DCAT)

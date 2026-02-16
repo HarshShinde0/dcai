@@ -14,9 +14,9 @@
   {
     "@id": "https://example.org/NASA%20POWER%20T2M%202020/recordset/t2m_data/field/longitude",
     "@type": [
-      "http://mlcommons.org/croissant/geocr/Field"
+      "http://mlcommons.org/croissant/geo/Field"
     ],
-    "http://mlcommons.org/croissant/geocr/dataType": [
+    "http://mlcommons.org/croissant/geo/dataType": [
       {
         "@value": "sc:Float"
       }
@@ -35,9 +35,9 @@
   {
     "@id": "https://example.org/NASA%20POWER%20T2M%202020/recordset/t2m_data/field/time",
     "@type": [
-      "http://mlcommons.org/croissant/geocr/Field"
+      "http://mlcommons.org/croissant/geo/Field"
     ],
-    "http://mlcommons.org/croissant/geocr/dataType": [
+    "http://mlcommons.org/croissant/geo/dataType": [
       {
         "@value": "sc:Text"
       }
@@ -74,9 +74,9 @@
   {
     "@id": "https://example.org/NASA%20POWER%20T2M%202020/recordset/t2m_data/field/T2M",
     "@type": [
-      "http://mlcommons.org/croissant/geocr/Field"
+      "http://mlcommons.org/croissant/geo/Field"
     ],
-    "http://mlcommons.org/croissant/geocr/dataType": [
+    "http://mlcommons.org/croissant/geo/dataType": [
       {
         "@value": "sc:Float"
       }
@@ -95,9 +95,9 @@
   {
     "@id": "https://example.org/NASA%20POWER%20T2M%202020/recordset/t2m_data/field/latitude",
     "@type": [
-      "http://mlcommons.org/croissant/geocr/Field"
+      "http://mlcommons.org/croissant/geo/Field"
     ],
-    "http://mlcommons.org/croissant/geocr/dataType": [
+    "http://mlcommons.org/croissant/geo/dataType": [
       {
         "@value": "sc:Float"
       }
@@ -116,9 +116,9 @@
   {
     "@id": "https://example.org/NASA%20POWER%20T2M%202020/recordset/t2m_data",
     "@type": [
-      "http://mlcommons.org/croissant/geocr/RecordSet"
+      "http://mlcommons.org/croissant/geo/RecordSet"
     ],
-    "http://mlcommons.org/croissant/geocr/field": [
+    "http://mlcommons.org/croissant/geo/field": [
       {
         "@id": "https://example.org/NASA%20POWER%20T2M%202020/recordset/t2m_data/field/T2M"
       },
@@ -144,22 +144,22 @@
       "http://www.w3.org/ns/dcat#Dataset",
       "https://schema.org/Dataset"
     ],
-    "http://mlcommons.org/croissant/geocr/coordinateReferenceSystem": [
+    "http://mlcommons.org/croissant/geo/coordinateReferenceSystem": [
       {
         "@id": "http://www.opengis.net/def/crs/EPSG:4326"
       }
     ],
-    "http://mlcommons.org/croissant/geocr/recordSet": [
+    "http://mlcommons.org/croissant/geo/recordSet": [
       {
         "@id": "https://example.org/NASA%20POWER%20T2M%202020/recordset/t2m_data"
       }
     ],
-    "http://mlcommons.org/croissant/geocr/spatialResolution": [
+    "http://mlcommons.org/croissant/geo/spatialResolution": [
       {
         "@id": "_:N42d54b121e2640f99f08b1b2c8e217d7"
       }
     ],
-    "http://mlcommons.org/croissant/geocr/temporalResolution": [
+    "http://mlcommons.org/croissant/geo/temporalResolution": [
       {
         "@id": "_:N8869c3a37bb94f9eaa99cc326ab27cc0"
       }
