@@ -34,6 +34,9 @@ jobs:
         with:
           version: 1.4.549
 
+      - name: Execute Zarr Datacube Notebook
+        run: jupyter nbconvert --execute --to notebook --inplace Zarr_Datacube_to_GeoCroissant/Zarr_Datacube_to_GeoCroissant.ipynb
+
       - name: Render Quarto Project
         run: quarto render
 
